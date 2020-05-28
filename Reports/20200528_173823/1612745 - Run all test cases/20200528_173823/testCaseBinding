@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/1612745 - Test sign in - Iteration 1","testCaseId":"Test Cases/1612745 - Test sign in","bindedValues":{"password":"\u0027test1\u0027","username":"\u0027test1\u0027"}}
+{"testCaseName":"Test Cases/1612745 - Test sign in - Iteration 2","testCaseId":"Test Cases/1612745 - Test sign in","bindedValues":{"password":"\u0027test2\u0027","username":"\u0027test2\u0027"}}
+{"testCaseName":"Test Cases/1612745 - Test sign in - Iteration 3","testCaseId":"Test Cases/1612745 - Test sign in","bindedValues":{"password":"\u0027vltX/nZ/LjgkcP+YDueabg\u003d\u003d\u0027","username":"\u0027162759@student.hcmus.edu.vn\u0027"}}
+{"testCaseName":"Test Cases/1612745 - Test sign in - Iteration 4","testCaseId":"Test Cases/1612745 - Test sign in","bindedValues":{"password":"\u0027test4\u0027","username":"\u0027test4\u0027"}}
+{"testCaseName":"Test Cases/1612745 - Test sign in - Iteration 5","testCaseId":"Test Cases/1612745 - Test sign in","bindedValues":{"password":"\u0027test5\u0027","username":"\u0027test5\u0027"}}
