@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1612745 - Run all test cases" time="12.862" tests="1" failures="0" errors="0">
+   <testsuite name="1612745 - Run all test cases" tests="1" failures="0" errors="0" time="12.862" timestamp="2020-05-29 16:49:15" hostname="haquangtrong - 192.168.1.4" id="Test Suites/1612745 - Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_164855/1612745 - Run all test cases/20200529_164855"/>
+         <property name="logFiles" value="/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_164855/1612745 - Run all test cases/20200529_164855/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="haquangtrong - 192.168.1.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Firefox 76.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="b4a62014-a458-b94c-9e63-5d3c44311fe9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/1612745/1612745 - Test sign up" time="12.337" classname="Test Cases/1612745/1612745 - Test sign up" status="PASSED">
+         <system-out><![CDATA[2020-05-29 16:49:16 - [TEST_CASE][PASSED] - Test Cases/1612745/1612745 - Test sign up: Test Cases/1612745/1612745 - Test sign up
+
+2020-05-29 16:49:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 16:49:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-29 16:49:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-29 16:49:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 16:49:23 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/signup_email"): Navigate to 'http://localhost:8065/signup_email' successfully
+
+2020-05-29 16:49:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/signup_email' successfully
+
+2020-05-29 16:49:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_concat(What  s your email address)_email"), email): Text '' is set on object 'Object Repository/Page_Mattermost/input_concat(What  s your email address)_email'
+
+2020-05-29 16:49:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/input_concat(What  s your email address)_email'
+
+2020-05-29 16:49:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_Choose your username_name"), username): Text '' is set on object 'Object Repository/Page_Mattermost/input_Choose your username_name'
+
+2020-05-29 16:49:26 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/input_Choose your username_name'
+
+2020-05-29 16:49:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mattermost/input_Choose your password_password"), password): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_Choose your password_password'
+
+2020-05-29 16:49:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_Choose your password_password'
+
+2020-05-29 16:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Create Account")): Object: 'Object Repository/Page_Mattermost/span_Create Account' is clicked on
+
+2020-05-29 16:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Create Account' is clicked on
+
+2020-05-29 16:49:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 16:49:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 16:49:15 - [TEST_SUITE][PASSED] - 1612745 - Run all test cases: Test Cases/1612745/1612745 - Test sign up]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

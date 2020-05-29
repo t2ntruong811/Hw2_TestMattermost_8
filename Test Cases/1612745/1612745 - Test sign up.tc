@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1612745 - Test sign up</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>222fc611-7af9-4f99-80bb-b6c2a763c8a7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>48e2f6ce-8cab-4625-94af-057cfff8a5e1</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f45c6455-1f7d-4c11-b489-17eb51d73b7a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b723d25b-3bdf-4f7d-997d-d82bb2260b0e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
