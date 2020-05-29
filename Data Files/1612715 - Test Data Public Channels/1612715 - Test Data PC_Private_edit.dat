@@ -12,25 +12,27 @@
    <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D Test2 testurl2</data>
    <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDuea%3D Test+fail testurl3</data>
    <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D test+3 testurl4</data>
+   <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D null null</data>
+   <data>qbc%40gmail.com vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>4</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>4</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>name</name>
-      <size>4</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>url</name>
-      <size>4</size>
+      <size>6</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

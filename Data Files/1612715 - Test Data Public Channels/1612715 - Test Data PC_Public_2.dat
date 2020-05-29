@@ -12,30 +12,33 @@
    <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D Test2 test+p+2 test+h+2</data>
    <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDuea%3D Test+fail tes1+p3 test+h3</data>
    <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D test+3 test+p+3 test+h+4</data>
+   <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D null test+p+3 test+h+4</data>
+   <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D null test+h+4 null</data>
+   <data>abc%40gmail.com vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D null null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>4</size>
+      <size>7</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>4</size>
+      <size>7</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>name</name>
-      <size>4</size>
+      <size>7</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>purpose</name>
-      <size>4</size>
+      <size>7</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
       <name>header</name>
-      <size>4</size>
+      <size>7</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

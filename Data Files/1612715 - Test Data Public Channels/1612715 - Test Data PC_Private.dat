@@ -11,20 +11,23 @@
    <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D test1</data>
    <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D Test2</data>
    <data>1512759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D test+failed</data>
+   <data>1512759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDue test+failed</data>
+   <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D test+3</data>
+   <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D test4</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>3</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>3</size>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>name</name>
-      <size>3</size>
+      <size>6</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
