@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1612759 - Test Account Settings - Edit Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e453e003-c14c-4e43-b69c-36f7f10ca8ec</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>35b6865f-1ade-4792-80bc-618a372408a5</id>
+      <masked>false</masked>
+      <name>newEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>936c060c-e1b7-4816-b950-411bf06415d2</id>
+      <masked>false</masked>
+      <name>confirmEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>90bac033-b28f-49e3-bc05-98c19c4cde2e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

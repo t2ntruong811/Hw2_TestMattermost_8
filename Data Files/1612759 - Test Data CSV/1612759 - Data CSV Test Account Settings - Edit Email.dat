@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>1612759 - Data CSV Test Account Settings - Edit Email</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>07c3a400-68e4-4f2c-b0b4-90d6213ce7df</dataFileGUID>
+   <dataSourceUrl>E:\Hoc Tap\Nam 4\Kì 2\Chủ đề NC\Data CSV\Data CSV Edit Email.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
