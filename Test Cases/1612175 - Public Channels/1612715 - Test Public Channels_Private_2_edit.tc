@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1612715 - Test Public Channels_Private_2_edit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d43109e1-b368-4a97-b27d-78651871ff21</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>400bba60-1640-4589-8a35-7d452d48c860</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>27d1918e-e240-4634-9fe5-aef54d4c4d0b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1eccad59-cae0-4fdb-9364-dfb1ad1436d4</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9a73456f-d24d-4dcd-a983-ace17665ad0f</id>
+      <masked>false</masked>
+      <name>purpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b726891d-c2b4-48e2-94c8-1340f4fc1762</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>df3748e3-6536-405c-9218-0f9032c83555</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>
