@@ -11,13 +11,13 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>e0813763-a2de-4398-9a9d-e29ac61bcf2c</testSuiteGuid>
    <testCaseLink>
-      <guid>29b1bc9a-66ba-436e-acb9-ac4b4dc04876</guid>
+      <guid>78a2e1ca-d187-4963-a33b-f50e67eb1388</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1612759 - Test case use CSV/1612759 - Test Account Settings - Edit Email</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>e5e6e245-a6db-4a24-a7e9-552620e3e319</id>
+         <id>eee9f59c-7c7d-476b-abd2-05de28b4d31a</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -25,22 +25,22 @@
          <testDataId>Data Files/1612759 - Test Data CSV/1612759 - Data CSV Test Account Settings - Edit Email</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>e5e6e245-a6db-4a24-a7e9-552620e3e319</testDataLinkId>
+         <testDataLinkId>eee9f59c-7c7d-476b-abd2-05de28b4d31a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>﻿newEmail</value>
-         <variableId>35b6865f-1ade-4792-80bc-618a372408a5</variableId>
+         <variableId>3707ae7d-5eaf-48ec-845b-e13b1e1ec725</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e5e6e245-a6db-4a24-a7e9-552620e3e319</testDataLinkId>
+         <testDataLinkId>eee9f59c-7c7d-476b-abd2-05de28b4d31a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>confirmEmail</value>
-         <variableId>936c060c-e1b7-4816-b950-411bf06415d2</variableId>
+         <variableId>6d88d41f-b325-40f1-a5f9-3232f08f104d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e5e6e245-a6db-4a24-a7e9-552620e3e319</testDataLinkId>
+         <testDataLinkId>eee9f59c-7c7d-476b-abd2-05de28b4d31a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>90bac033-b28f-49e3-bc05-98c19c4cde2e</variableId>
+         <variableId>47c0c476-8622-461e-bd83-e5e07bdabcef</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

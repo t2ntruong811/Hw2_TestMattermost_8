@@ -4,26 +4,26 @@
    <name>1612759 - Test Account Settings - Edit Email</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e453e003-c14c-4e43-b69c-36f7f10ca8ec</testCaseGuid>
+   <testCaseGuid>f262311b-edcd-4785-b285-adc90ea418ec</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>35b6865f-1ade-4792-80bc-618a372408a5</id>
+      <id>3707ae7d-5eaf-48ec-845b-e13b1e1ec725</id>
       <masked>false</masked>
       <name>newEmail</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>936c060c-e1b7-4816-b950-411bf06415d2</id>
+      <id>6d88d41f-b325-40f1-a5f9-3232f08f104d</id>
       <masked>false</masked>
       <name>confirmEmail</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>90bac033-b28f-49e3-bc05-98c19c4cde2e</id>
+      <id>47c0c476-8622-461e-bd83-e5e07bdabcef</id>
       <masked>false</masked>
-      <name>password</name>
+      <name>variable_1</name>
    </variable>
 </TestCaseEntity>
