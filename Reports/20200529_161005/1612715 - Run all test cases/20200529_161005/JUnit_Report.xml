@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1612715 - Run all test cases" time="1.135" tests="3" failures="0" errors="0">
+   <testsuite name="1612715 - Run all test cases" tests="3" failures="0" errors="0" time="1.135" timestamp="2020-05-29 16:10:18" hostname="haquangtrong - 192.168.1.4" id="Test Suites/1612715 - Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_161005/1612715 - Run all test cases/20200529_161005"/>
+         <property name="logFiles" value="/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_161005/1612715 - Run all test cases/20200529_161005/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="haquangtrong - 192.168.1.4"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+      </properties>
+      <testcase name="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private" time="0.423" classname="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private" status="PASSED">
+         <system-out><![CDATA[2020-05-29 16:10:18 - [TEST_CASE][PASSED] - Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private: Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private
+
+2020-05-29 16:10:19 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private" time="0.019" classname="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private" status="PASSED">
+         <system-out><![CDATA[2020-05-29 16:10:19 - [TEST_CASE][PASSED] - Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private: Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private
+
+2020-05-29 16:10:19 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private" time="0.015" classname="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private" status="PASSED">
+         <system-out><![CDATA[2020-05-29 16:10:19 - [TEST_CASE][PASSED] - Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private: Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private
+
+2020-05-29 16:10:19 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 16:10:18 - [TEST_SUITE][PASSED] - 1612715 - Run all test cases: Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

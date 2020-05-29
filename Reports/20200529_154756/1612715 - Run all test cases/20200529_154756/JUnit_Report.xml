@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1612715 - Run all test cases" time="122.434" tests="3" failures="1" errors="0">
+   <testsuite name="1612715 - Run all test cases" tests="3" failures="1" errors="0" time="122.434" timestamp="2020-05-29 15:48:09" hostname="haquangtrong - 192.168.1.4" id="Test Suites/1612715 - Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_154756/1612715 - Run all test cases/20200529_154756"/>
+         <property name="logFiles" value="/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_154756/1612715 - Run all test cases/20200529_154756/execution0.log"/>
+         <property name="attachments" value="/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_154756/1612715 - Run all test cases/20200529_154756/1590742211182.png"/>
+         <property name="hostName" value="haquangtrong - 192.168.1.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Firefox 76.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="13e18e24-31bb-0f4e-94cb-21ba367ed1b2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public" time="26.515" classname="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public" status="PASSED">
+         <system-out><![CDATA[2020-05-29 15:48:09 - [TEST_CASE][PASSED] - Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public: Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public
+
+2020-05-29 15:48:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 15:48:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-29 15:48:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-29 15:48:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 15:48:14 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-master.herokuapp.com/teamchudenc/channels/town-square"): Navigate to 'https://mattermost-master.herokuapp.com/teamchudenc/channels/town-square' successfully
+
+2020-05-29 15:48:20 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-master.herokuapp.com/teamchudenc/channels/town-square' successfully
+
+2020-05-29 15:48:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), username): Text '1612759@student.hcmus.edu.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 15:48:28 - [MESSAGE][PASSED] - Text '1612759@student.hcmus.edu.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 15:48:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 15:48:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 15:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 15:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 15:48:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' is clicked on
+
+2020-05-29 15:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' is clicked on
+
+2020-05-29 15:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create Channel")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create Channel' is clicked on
+
+2020-05-29 15:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create Channel' is clicked on
+
+2020-05-29 15:48:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Name_newChannelName"), name): Text 'test1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Name_newChannelName'
+
+2020-05-29 15:48:35 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Name_newChannelName'
+
+2020-05-29 15:48:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create Channel")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create Channel' is clicked on
+
+2020-05-29 15:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create Channel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public" time="23.199" classname="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public" status="PASSED">
+         <system-out><![CDATA[2020-05-29 15:48:36 - [TEST_CASE][PASSED] - Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public: Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public
+
+2020-05-29 15:48:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 15:48:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 15:48:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-29 15:48:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-29 15:48:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 15:48:42 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-master.herokuapp.com/teamchudenc/channels/town-square"): Navigate to 'https://mattermost-master.herokuapp.com/teamchudenc/channels/town-square' successfully
+
+2020-05-29 15:48:47 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-master.herokuapp.com/teamchudenc/channels/town-square' successfully
+
+2020-05-29 15:48:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), username): Text '1612759@student.hcmus.edu.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 15:48:53 - [MESSAGE][PASSED] - Text '1612759@student.hcmus.edu.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 15:48:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 15:48:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 15:48:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 15:48:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 15:48:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' is clicked on
+
+2020-05-29 15:48:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' is clicked on
+
+2020-05-29 15:48:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create Channel")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create Channel' is clicked on
+
+2020-05-29 15:48:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create Channel' is clicked on
+
+2020-05-29 15:48:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Name_newChannelName"), name): Text 'Test2' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Name_newChannelName'
+
+2020-05-29 15:48:58 - [MESSAGE][PASSED] - Text 'Test2' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Name_newChannelName'
+
+2020-05-29 15:48:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create Channel")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create Channel' is clicked on
+
+2020-05-29 15:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create Channel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public" time="71.635" classname="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1612715 - Test Public Channels_Public.run(1612715 - Test Public Channels_Public:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590742087023.run(TempTestSuite1590742087023.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' located by 'By.xpath: //button[@id='createPublicChannel']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-29 15:48:59 - [TEST_CASE][FAILED] - Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public: Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1612715 - Test Public Channels_Public.run(1612715 - Test Public Channels_Public:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590742087023.run(TempTestSuite1590742087023.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' located by 'By.xpath: //button[@id='createPublicChannel']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-29 15:48:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 15:48:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 15:49:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-29 15:49:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-29 15:49:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 15:49:03 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-master.herokuapp.com/teamchudenc/channels/town-square"): Navigate to 'https://mattermost-master.herokuapp.com/teamchudenc/channels/town-square' successfully
+
+2020-05-29 15:49:14 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-master.herokuapp.com/teamchudenc/channels/town-square' successfully
+
+2020-05-29 15:49:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), username): Text '1512759@student.hcmus.edu.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 15:49:26 - [MESSAGE][PASSED] - Text '1512759@student.hcmus.edu.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 15:49:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 15:49:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 15:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 15:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 15:49:27 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_")): Unable to click on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1612715 - Test Public Channels_Public.run(1612715 - Test Public Channels_Public:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590742087023.run(TempTestSuite1590742087023.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' located by 'By.xpath: //button[@id='createPublicChannel']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1590719651652.run(Script1590719651652.groovy:29)
+	... 13 more
+)
+
+2020-05-29 15:50:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='createPublicChannel']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-29 15:50:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1612715 - Test Public Channels_Public.run(1612715 - Test Public Channels_Public:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590742087023.run(TempTestSuite1590742087023.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' located by 'By.xpath: //button[@id='createPublicChannel']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1590719651652.run(Script1590719651652.groovy:29)
+	... 13 more
+)
+[[ATTACHMENT|/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_154756/1612715 - Run all test cases/20200529_154756/1590742211182.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-29 15:48:59 - [TEST_CASE][FAILED] - Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public: Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1612715 - Test Public Channels_Public.run(1612715 - Test Public Channels_Public:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590742087023.run(TempTestSuite1590742087023.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' located by 'By.xpath: //button[@id='createPublicChannel']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 15:48:09 - [TEST_SUITE][FAILED] - 1612715 - Run all test cases: Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1612715 - Test Public Channels_Public.run(1612715 - Test Public Channels_Public:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590742087023.run(TempTestSuite1590742087023.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' located by 'By.xpath: //button[@id='createPublicChannel']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-29 15:48:09 - [TEST_SUITE][FAILED] - 1612715 - Run all test cases: Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1612715 - Test Public Channels_Public.run(1612715 - Test Public Channels_Public:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590742087023.run(TempTestSuite1590742087023.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_' located by 'By.xpath: //button[@id='createPublicChannel']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
