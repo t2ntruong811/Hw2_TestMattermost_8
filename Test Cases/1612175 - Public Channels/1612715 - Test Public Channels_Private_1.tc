@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1612715 - Test Public Channels_Private_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d059312-21b2-43b4-9735-49fe847a4b19</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c0194ee0-d650-469b-9045-933c6000a409</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a42772b-3e99-44bc-a41d-31773a20982c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eae893da-13a5-42bb-af6c-9d62df524862</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a645497e-31ee-440a-8782-4f42cf3126cf</id>
+      <masked>false</masked>
+      <name>purpose</name>
+   </variable>
+</TestCaseEntity>

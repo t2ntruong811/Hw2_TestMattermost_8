@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1612715 - Test Public Channels_Public_2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91d7cf89-ec53-41f6-b0e5-2e920d1b492c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f516c1a4-f18a-4715-8b13-f22fb322bc21</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6c4b16c-a5fb-4dce-a7fe-63b3b975d3ed</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6187a108-0a0c-4b20-a471-9ab2dfb76b5b</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d371cd2-9163-4572-aa18-e2f43c055a84</id>
+      <masked>false</masked>
+      <name>purpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>457367f9-1a23-4d32-b7ad-aac28b731581</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+</TestCaseEntity>

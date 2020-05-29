@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>1612715 - Test Data PC_Public_1</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>cf84aeac-b6a9-4311-a979-e4ee4d2d9056</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D test1 test+p+1</data>
+   <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D Test2 test+p+2</data>
+   <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDuea%3D Test+fail tes1+p3</data>
+   <data>1612759%40student.hcmus.edu.vn vItX%2FnZ%2FLjgkcP%2BYDueabg%3D%3D test+3 test+p+3</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>username</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>name</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>purpose</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
