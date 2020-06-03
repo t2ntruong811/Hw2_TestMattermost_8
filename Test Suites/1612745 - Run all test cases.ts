@@ -31,7 +31,7 @@
    <testCaseLink>
       <guid>0b404d41-cae7-4926-a305-dbeed6884aa0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612745/1612745 - Test sign up</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -50,6 +50,27 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>b723d25b-3bdf-4f7d-997d-d82bb2260b0e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b070642a-b308-4a1d-8e52-5ad0a8896cb2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612745/1612745 - Create new team</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e523bbdb-43b9-4b4d-a9ae-16a4c937c727</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/1612745 - Data Sign in/1612745 - Test data create new team</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e523bbdb-43b9-4b4d-a9ae-16a4c937c727</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nameTeam</value>
+         <variableId>b02836ac-8cd6-4eff-9149-ba03824255a0</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

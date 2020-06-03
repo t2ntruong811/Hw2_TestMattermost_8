@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>86ff373b-32b5-4682-b7a8-0e0dd549ef58</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -85,7 +85,7 @@
    <testCaseLink>
       <guid>5d0da52f-3ab6-4c51-a6c0-d25f76ab42aa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public_2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -130,7 +130,7 @@
    <testCaseLink>
       <guid>8b394ea9-7e66-4347-b111-63a92b0706df</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -163,7 +163,7 @@
    <testCaseLink>
       <guid>1669e25b-6beb-494a-8539-b5a91b31c00d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private_1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -202,7 +202,7 @@
    <testCaseLink>
       <guid>4ef8dce1-3e39-4242-b214-704287dfba9a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private_2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -247,7 +247,7 @@
    <testCaseLink>
       <guid>0bdc4989-e832-4eef-a488-ed120ded9f53</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public_2_edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -292,7 +292,7 @@
    <testCaseLink>
       <guid>a709e4bb-ae7d-4305-84d6-dfb1f05c44a8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private_2_edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -343,7 +343,7 @@
    <testCaseLink>
       <guid>b7fe4515-66bf-465c-9cd6-a001cb14a04d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private_1_edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -388,7 +388,7 @@
    <testCaseLink>
       <guid>5b244d37-a952-4f9b-a69e-8105e782ddac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public_edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -427,7 +427,7 @@
    <testCaseLink>
       <guid>0b25f5f2-743f-4ed3-96c5-984f5f4185b0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public_1_edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -478,7 +478,7 @@
    <testCaseLink>
       <guid>79ad7532-9697-4901-9cad-6d27f03a2c6d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Private_edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

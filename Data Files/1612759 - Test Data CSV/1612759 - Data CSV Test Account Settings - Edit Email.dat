@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>1c38cdb3-4492-4718-91ca-3296e6095dc5</dataFileGUID>
-   <dataSourceUrl>E:\Hoc Tap\Nam 4\Kì 2\Chủ đề NC\HW2\Hw2_TestMattermost_8\Data CSV\Data CSV Edit Email.csv</dataSourceUrl>
+   <dataSourceUrl>/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Data CSV/Data CSV Edit Email.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

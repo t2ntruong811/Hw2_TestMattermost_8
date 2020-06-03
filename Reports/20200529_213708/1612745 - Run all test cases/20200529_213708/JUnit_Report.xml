@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1612745 - Run all test cases" time="147.973" tests="5" failures="2" errors="0">
+   <testsuite name="1612745 - Run all test cases" tests="5" failures="2" errors="0" time="147.973" timestamp="2020-05-29 21:37:21" hostname="haquangtrong - 192.168.2.105" id="Test Suites/1612745 - Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_213708/1612745 - Run all test cases/20200529_213708"/>
+         <property name="logFiles" value="/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_213708/1612745 - Run all test cases/20200529_213708/execution0.log"/>
+         <property name="attachments" value="/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_213708/1612745 - Run all test cases/20200529_213708/1590763122491.png, /Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_213708/1612745 - Run all test cases/20200529_213708/1590763176856.png"/>
+         <property name="hostName" value="haquangtrong - 192.168.2.105"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Firefox 76.0"/>
+         <property name="hostAddress" value="192.168.2.105"/>
+         <property name="sessionId" value="72df3838-1364-3641-94ed-3aeedc58d493"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/1612745/1612745 - Create new team" time="15.561" classname="Test Cases/1612745/1612745 - Create new team" status="PASSED">
+         <system-out><![CDATA[2020-05-29 21:37:22 - [TEST_CASE][PASSED] - Test Cases/1612745/1612745 - Create new team: Test Cases/1612745/1612745 - Create new team
+
+2020-05-29 21:37:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 21:37:23 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-29 21:37:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-29 21:37:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 21:37:27 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2020-05-29 21:37:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2020-05-29 21:37:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "user-1"): Text 'user-1' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 21:37:30 - [MESSAGE][PASSED] - Text 'user-1' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 21:37:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "MZgS3bkacIma+dCTaK/maA=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:37:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:37:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:37:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:37:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/div_")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/div_' is clicked on
+
+2020-05-29 21:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/div_' is clicked on
+
+2020-05-29 21:37:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput"), nameTeam): Text 'team1' is set on object 'Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput'
+
+2020-05-29 21:37:33 - [MESSAGE][PASSED] - Text 'team1' is set on object 'Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput'
+
+2020-05-29 21:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/span_Next")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/span_Next' is clicked on
+
+2020-05-29 21:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/span_Next' is clicked on
+
+2020-05-29 21:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' is clicked on
+
+2020-05-29 21:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' is clicked on
+
+2020-05-29 21:37:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 21:37:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612745/1612745 - Create new team" time="12.024" classname="Test Cases/1612745/1612745 - Create new team" status="PASSED">
+         <system-out><![CDATA[2020-05-29 21:37:37 - [TEST_CASE][PASSED] - Test Cases/1612745/1612745 - Create new team: Test Cases/1612745/1612745 - Create new team
+
+2020-05-29 21:37:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 21:37:37 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-29 21:37:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-29 21:37:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 21:37:40 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2020-05-29 21:37:41 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2020-05-29 21:37:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "user-1"): Text 'user-1' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 21:37:43 - [MESSAGE][PASSED] - Text 'user-1' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 21:37:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "MZgS3bkacIma+dCTaK/maA=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:37:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:37:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:37:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:37:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/div_")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/div_' is clicked on
+
+2020-05-29 21:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/div_' is clicked on
+
+2020-05-29 21:37:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput"), nameTeam): Text 'team2' is set on object 'Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput'
+
+2020-05-29 21:37:46 - [MESSAGE][PASSED] - Text 'team2' is set on object 'Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput'
+
+2020-05-29 21:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/span_Next")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/span_Next' is clicked on
+
+2020-05-29 21:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/span_Next' is clicked on
+
+2020-05-29 21:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' is clicked on
+
+2020-05-29 21:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' is clicked on
+
+2020-05-29 21:37:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 21:37:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612745/1612745 - Create new team" time="52.777" classname="Test Cases/1612745/1612745 - Create new team" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1612745/1612745 - Create new team FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 1612745 - Create new team.run(1612745 - Create new team:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590763038644.run(TempTestSuite1590763038644.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' located by 'By.xpath: //button[@id='teamURLFinishButton']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-29 21:37:49 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Create new team: Test Cases/1612745/1612745 - Create new team FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 1612745 - Create new team.run(1612745 - Create new team:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590763038644.run(TempTestSuite1590763038644.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' located by 'By.xpath: //button[@id='teamURLFinishButton']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-29 21:37:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 21:37:49 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-29 21:37:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-29 21:37:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 21:37:52 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2020-05-29 21:37:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2020-05-29 21:37:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "user-1"): Text 'user-1' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 21:37:54 - [MESSAGE][PASSED] - Text 'user-1' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 21:37:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "MZgS3bkacIma+dCTaK/maA=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:37:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:37:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:37:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:37:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/div_")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/div_' is clicked on
+
+2020-05-29 21:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/div_' is clicked on
+
+2020-05-29 21:37:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput"), nameTeam): Text '' is set on object 'Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput'
+
+2020-05-29 21:37:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput'
+
+2020-05-29 21:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/span_Next")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/span_Next' is clicked on
+
+2020-05-29 21:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/span_Next' is clicked on
+
+2020-05-29 21:37:58 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish")): Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 1612745 - Create new team.run(1612745 - Create new team:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590763038644.run(TempTestSuite1590763038644.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' located by 'By.xpath: //button[@id='teamURLFinishButton']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1590761727147.run(Script1590761727147.groovy:36)
+	... 13 more
+)
+
+2020-05-29 21:38:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='teamURLFinishButton']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-29 21:38:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 1612745 - Create new team.run(1612745 - Create new team:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590763038644.run(TempTestSuite1590763038644.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' located by 'By.xpath: //button[@id='teamURLFinishButton']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1590761727147.run(Script1590761727147.groovy:36)
+	... 13 more
+)
+[[ATTACHMENT|/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_213708/1612745 - Run all test cases/20200529_213708/1590763122491.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-29 21:37:49 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Create new team: Test Cases/1612745/1612745 - Create new team FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 1612745 - Create new team.run(1612745 - Create new team:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590763038644.run(TempTestSuite1590763038644.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' located by 'By.xpath: //button[@id='teamURLFinishButton']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612745/1612745 - Create new team" time="54.364" classname="Test Cases/1612745/1612745 - Create new team" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1612745/1612745 - Create new team FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 1612745 - Create new team.run(1612745 - Create new team:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590763038644.run(TempTestSuite1590763038644.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' located by 'By.xpath: //button[@id='teamURLFinishButton']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-29 21:38:42 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Create new team: Test Cases/1612745/1612745 - Create new team FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 1612745 - Create new team.run(1612745 - Create new team:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590763038644.run(TempTestSuite1590763038644.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' located by 'By.xpath: //button[@id='teamURLFinishButton']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-29 21:38:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 21:38:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 21:38:43 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-29 21:38:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-29 21:38:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 21:38:46 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2020-05-29 21:38:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2020-05-29 21:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "user-1"): Text 'user-1' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 21:38:48 - [MESSAGE][PASSED] - Text 'user-1' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 21:38:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "MZgS3bkacIma+dCTaK/maA=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:38:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:38:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:38:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:38:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/div_")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/div_' is clicked on
+
+2020-05-29 21:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/div_' is clicked on
+
+2020-05-29 21:38:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput"), nameTeam): Text 'a' is set on object 'Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput'
+
+2020-05-29 21:38:52 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput'
+
+2020-05-29 21:38:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/span_Next")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/span_Next' is clicked on
+
+2020-05-29 21:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/span_Next' is clicked on
+
+2020-05-29 21:38:53 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish")): Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 1612745 - Create new team.run(1612745 - Create new team:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590763038644.run(TempTestSuite1590763038644.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' located by 'By.xpath: //button[@id='teamURLFinishButton']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1590761727147.run(Script1590761727147.groovy:36)
+	... 13 more
+)
+
+2020-05-29 21:39:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='teamURLFinishButton']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-29 21:39:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 1612745 - Create new team.run(1612745 - Create new team:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590763038644.run(TempTestSuite1590763038644.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' located by 'By.xpath: //button[@id='teamURLFinishButton']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1590761727147.run(Script1590761727147.groovy:36)
+	... 13 more
+)
+[[ATTACHMENT|/Users/haquangtrong/Documents/git/Katalon_Test_Mattermost/Reports/20200529_213708/1612745 - Run all test cases/20200529_213708/1590763176856.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-29 21:38:42 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Create new team: Test Cases/1612745/1612745 - Create new team FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 1612745 - Create new team.run(1612745 - Create new team:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590763038644.run(TempTestSuite1590763038644.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' located by 'By.xpath: //button[@id='teamURLFinishButton']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612745/1612745 - Create new team" time="12.567" classname="Test Cases/1612745/1612745 - Create new team" status="PASSED">
+         <system-out><![CDATA[2020-05-29 21:39:37 - [TEST_CASE][PASSED] - Test Cases/1612745/1612745 - Create new team: Test Cases/1612745/1612745 - Create new team
+
+2020-05-29 21:39:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 21:39:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 21:39:37 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-05-29 21:39:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-29 21:39:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 21:39:41 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8065/login"): Navigate to 'http://localhost:8065/login' successfully
+
+2020-05-29 21:39:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8065/login' successfully
+
+2020-05-29 21:39:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "user-1"): Text 'user-1' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 21:39:43 - [MESSAGE][PASSED] - Text 'user-1' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-29 21:39:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "MZgS3bkacIma+dCTaK/maA=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:39:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:39:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:39:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-29 21:39:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/div_")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/div_' is clicked on
+
+2020-05-29 21:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/div_' is clicked on
+
+2020-05-29 21:39:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput"), nameTeam): Text '@#' is set on object 'Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput'
+
+2020-05-29 21:39:46 - [MESSAGE][PASSED] - Text '@#' is set on object 'Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput'
+
+2020-05-29 21:39:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/span_Next")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/span_Next' is clicked on
+
+2020-05-29 21:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/span_Next' is clicked on
+
+2020-05-29 21:39:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish")): Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' is clicked on
+
+2020-05-29 21:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' is clicked on
+
+2020-05-29 21:39:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 21:39:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 21:37:21 - [TEST_SUITE][FAILED] - 1612745 - Run all test cases: Test Cases/1612745/1612745 - Create new team FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 1612745 - Create new team.run(1612745 - Create new team:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590763038644.run(TempTestSuite1590763038644.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' located by 'By.xpath: //button[@id='teamURLFinishButton']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-29 21:37:21 - [TEST_SUITE][FAILED] - 1612745 - Run all test cases: Test Cases/1612745/1612745 - Create new team FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 1612745 - Create new team.run(1612745 - Create new team:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590763038644.run(TempTestSuite1590763038644.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ Town Square - eligendi Mattermost/button_Finish' located by 'By.xpath: //button[@id='teamURLFinishButton']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
