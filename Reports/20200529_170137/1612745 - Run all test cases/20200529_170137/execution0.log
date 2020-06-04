@@ -473,10 +473,7 @@
   <message>End Test Suite : Test Suites/1612745 - Run all test cases</message>
   <nestedLevel>0</nestedLevel>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2020-05-29T21:35:45</date>
   <millis>1590762945066</millis>

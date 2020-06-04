@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-master.herokuapp.com/teamchudenc/channels/new')
+WebUI.navigateToUrl('https://mattermost-master.herokuapp.com/')
 
 WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 't2ntruong')
 
@@ -26,20 +26,24 @@ WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communicat
 
 WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_New - TeamChuDeNC Mattermost/path'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb'))
 
-WebUI.click(findTestObject('Object Repository/Page_New - TeamChuDeNC Mattermost/span_Account Settings'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Account Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_New - TeamChuDeNC Mattermost/span_Edit'))
+WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/span_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_New - TeamChuDeNC Mattermost/input_New Email_primaryEmail'), newEmail)
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_New Email_primaryEmail'), 
+    newEmail)
 
-WebUI.setText(findTestObject('Object Repository/Page_New - TeamChuDeNC Mattermost/input_Confirm Email_confirmEmail'), confirmEmail)
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Confirm Email_confirmEmail'), 
+    confirmEmail)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_New - TeamChuDeNC Mattermost/input_Current Password_currentPassword'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Current Password_currentPassword'), 
     password)
 
-WebUI.click(findTestObject('Object Repository/Page_New - TeamChuDeNC Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Save'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Close'))
 
 WebUI.closeBrowser()
 
