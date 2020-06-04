@@ -43,4 +43,49 @@
          <variableId>47c0c476-8622-461e-bd83-e5e07bdabcef</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0671f1cb-8dd1-42f1-9ae7-acb332e4d40a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612759 - Test case use CSV/1612759 - Test Account Settings - Edit Password</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>391c6148-4407-4254-9375-0ac858c166f5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/1612759 - Test Data CSV/1612759 - Data CSV Test Account Settings - Edit Password</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>391c6148-4407-4254-9375-0ac858c166f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>﻿usernameLogin</value>
+         <variableId>0ab50b65-5fb8-4e64-8ef4-557f0772a6e4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>391c6148-4407-4254-9375-0ac858c166f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>passwordLogin</value>
+         <variableId>87306326-1a77-45a9-bc69-f9e53eb34598</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>391c6148-4407-4254-9375-0ac858c166f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>currentPassword</value>
+         <variableId>1f9b744f-2b7c-4ceb-b8d4-459e0e60e2d6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>391c6148-4407-4254-9375-0ac858c166f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newPassword</value>
+         <variableId>5c670a72-8570-4b20-8ca7-66ffede820c7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>391c6148-4407-4254-9375-0ac858c166f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>confirmPassword</value>
+         <variableId>7eeee537-601f-4e2d-b4fd-4f821a41b80c</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
