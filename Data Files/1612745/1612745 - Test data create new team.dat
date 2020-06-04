@@ -8,12 +8,12 @@
    <dataFileGUID>539def36-b9e9-4679-9107-69ea4ad5afaa</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>team1</data>
-   <data>team2</data>
+   <data>test-t1</data>
+   <data>test-t2</data>
    <data>null</data>
    <data>a</data>
    <data>%40%23</data>
-   <data>team1</data>
+   <data>test-t1</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>nameTeam</name>

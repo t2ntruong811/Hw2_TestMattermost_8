@@ -18,23 +18,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/login')
+WebUI.navigateToUrl('https://mattermost-master.herokuapp.com/login')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'user-1')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 't2ntruong')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'MZgS3bkacIma+dCTaK/maA==')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'vItX/nZ/LjgkcP+YDueabg==')
 
 WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - abc Mattermost/div_'))
+WebUI.click(findTestObject('Page_Town Square - acb Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb'))
 
-WebUI.setText(findTestObject('Object Repository/Page_ Town Square - abc Mattermost/input_Team Name_teamNameInput'), nameTeam)
+WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/span_Create a Team'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - abc Mattermost/span_Next'))
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - acb Mattermost/input_Team Name_teamNameInput'), nameTeam)
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - abc Mattermost/span_Finish'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/span_Next'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - team3 Mattermost/div_te'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/span_Finish'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - yut Mattermost/textarea_Write to Town Square_post_textbox'), 
+    'g')
 
 WebUI.closeBrowser()
 
