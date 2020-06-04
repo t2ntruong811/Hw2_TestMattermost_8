@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='teamchudencTeamButton']/div/div/div/div</value>
+         <value>Helloooooo</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
