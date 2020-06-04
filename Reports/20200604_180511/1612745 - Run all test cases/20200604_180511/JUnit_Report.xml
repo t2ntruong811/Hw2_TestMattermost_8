@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1612745 - Run all test cases" time="341.546" tests="6" failures="5" errors="0">
+   <testsuite name="1612745 - Run all test cases" tests="6" failures="5" errors="0" time="341.546" timestamp="2020-06-04 18:05:24" hostname="haquangtrong - 192.168.1.6" id="Test Suites/1612745 - Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/haquangtrong/Documents/git/Hw2_TestMattermost_8/Reports/20200604_180511/1612745 - Run all test cases/20200604_180511"/>
+         <property name="logFiles" value="/Users/haquangtrong/Documents/git/Hw2_TestMattermost_8/Reports/20200604_180511/1612745 - Run all test cases/20200604_180511/execution0.log"/>
+         <property name="attachments" value="/Users/haquangtrong/Documents/git/Hw2_TestMattermost_8/Reports/20200604_180511/1612745 - Run all test cases/20200604_180511/1591268812228.png, /Users/haquangtrong/Documents/git/Hw2_TestMattermost_8/Reports/20200604_180511/1612745 - Run all test cases/20200604_180511/1591268874793.png, /Users/haquangtrong/Documents/git/Hw2_TestMattermost_8/Reports/20200604_180511/1612745 - Run all test cases/20200604_180511/1591268939364.png, /Users/haquangtrong/Documents/git/Hw2_TestMattermost_8/Reports/20200604_180511/1612745 - Run all test cases/20200604_180511/1591269003429.png, /Users/haquangtrong/Documents/git/Hw2_TestMattermost_8/Reports/20200604_180511/1612745 - Run all test cases/20200604_180511/1591269064914.png"/>
+         <property name="hostName" value="haquangtrong - 192.168.1.6"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Firefox 76.0"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="05d1736c-8df0-6d43-a39b-084531f3b338"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/1612745/1612745 - Test Team URL" time="26.399" classname="Test Cases/1612745/1612745 - Test Team URL" status="PASSED">
+         <system-out><![CDATA[2020-06-04 18:05:24 - [TEST_CASE][PASSED] - Test Cases/1612745/1612745 - Test Team URL: Test Cases/1612745/1612745 - Test Team URL
+
+2020-06-04 18:05:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 18:05:25 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-06-04 18:05:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-04 18:05:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 18:05:29 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-master.herokuapp.com/login"): Navigate to 'https://mattermost-master.herokuapp.com/login' successfully
+
+2020-06-04 18:05:35 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-master.herokuapp.com/login' successfully
+
+2020-06-04 18:05:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "t2ntruong"): Text 't2ntruong' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-06-04 18:05:40 - [MESSAGE][PASSED] - Text 't2ntruong' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-06-04 18:05:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "vItX/nZ/LjgkcP+YDueabg=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-06-04 18:05:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-06-04 18:05:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-06-04 18:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-06-04 18:05:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb' is clicked on
+
+2020-06-04 18:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb' is clicked on
+
+2020-06-04 18:05:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team' is clicked on
+
+2020-06-04 18:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team' is clicked on
+
+2020-06-04 18:05:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput"), "t1"): Text 't1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'
+
+2020-06-04 18:05:45 - [MESSAGE][PASSED] - Text 't1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'
+
+2020-06-04 18:05:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next' is clicked on
+
+2020-06-04 18:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next' is clicked on
+
+2020-06-04 18:05:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88"), nameURL): Text 'url-1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'
+
+2020-06-04 18:05:46 - [MESSAGE][PASSED] - Text 'url-1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'
+
+2020-06-04 18:05:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish' is clicked on
+
+2020-06-04 18:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish' is clicked on
+
+2020-06-04 18:05:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox"), "1"): Text '1' is set on object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+
+2020-06-04 18:05:49 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+
+2020-06-04 18:05:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-04 18:05:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612745/1612745 - Test Team URL" time="61.296" classname="Test Cases/1612745/1612745 - Test Team URL" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-04 18:05:51 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Test Team URL: Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-04 18:05:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 18:05:51 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-06-04 18:05:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-04 18:05:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 18:05:54 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-master.herokuapp.com/login"): Navigate to 'https://mattermost-master.herokuapp.com/login' successfully
+
+2020-06-04 18:05:58 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-master.herokuapp.com/login' successfully
+
+2020-06-04 18:05:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "t2ntruong"): Text 't2ntruong' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-06-04 18:06:01 - [MESSAGE][PASSED] - Text 't2ntruong' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-06-04 18:06:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "vItX/nZ/LjgkcP+YDueabg=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-06-04 18:06:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-06-04 18:06:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-06-04 18:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-06-04 18:06:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb' is clicked on
+
+2020-06-04 18:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb' is clicked on
+
+2020-06-04 18:06:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team' is clicked on
+
+2020-06-04 18:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team' is clicked on
+
+2020-06-04 18:06:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput"), "t1"): Text 't1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'
+
+2020-06-04 18:06:07 - [MESSAGE][PASSED] - Text 't1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'
+
+2020-06-04 18:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next' is clicked on
+
+2020-06-04 18:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next' is clicked on
+
+2020-06-04 18:06:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88"), nameURL): Text 'u' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'
+
+2020-06-04 18:06:08 - [MESSAGE][PASSED] - Text 'u' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'
+
+2020-06-04 18:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish' is clicked on
+
+2020-06-04 18:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish' is clicked on
+
+2020-06-04 18:06:08 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox"), "1"): Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1591267761201.run(Script1591267761201.groovy:43)
+	... 13 more
+)
+
+2020-06-04 18:06:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='post_textbox']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-06-04 18:06:52 - [MESSAGE][FAILED] - Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1591267761201.run(Script1591267761201.groovy:43)
+	... 13 more
+)
+[[ATTACHMENT|/Users/haquangtrong/Documents/git/Hw2_TestMattermost_8/Reports/20200604_180511/1612745 - Run all test cases/20200604_180511/1591268812228.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-04 18:05:51 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Test Team URL: Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612745/1612745 - Test Team URL" time="62.519" classname="Test Cases/1612745/1612745 - Test Team URL" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-04 18:06:52 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Test Team URL: Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-04 18:06:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 18:06:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-04 18:06:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-06-04 18:06:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-04 18:06:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 18:06:56 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-master.herokuapp.com/login"): Navigate to 'https://mattermost-master.herokuapp.com/login' successfully
+
+2020-06-04 18:07:00 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-master.herokuapp.com/login' successfully
+
+2020-06-04 18:07:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "t2ntruong"): Text 't2ntruong' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-06-04 18:07:03 - [MESSAGE][PASSED] - Text 't2ntruong' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-06-04 18:07:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "vItX/nZ/LjgkcP+YDueabg=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-06-04 18:07:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-06-04 18:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-06-04 18:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-06-04 18:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb' is clicked on
+
+2020-06-04 18:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb' is clicked on
+
+2020-06-04 18:07:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team' is clicked on
+
+2020-06-04 18:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team' is clicked on
+
+2020-06-04 18:07:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput"), "t1"): Text 't1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'
+
+2020-06-04 18:07:09 - [MESSAGE][PASSED] - Text 't1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'
+
+2020-06-04 18:07:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next' is clicked on
+
+2020-06-04 18:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next' is clicked on
+
+2020-06-04 18:07:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88"), nameURL): Text '' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'
+
+2020-06-04 18:07:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'
+
+2020-06-04 18:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish' is clicked on
+
+2020-06-04 18:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish' is clicked on
+
+2020-06-04 18:07:10 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox"), "1"): Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1591267761201.run(Script1591267761201.groovy:43)
+	... 13 more
+)
+
+2020-06-04 18:07:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='post_textbox']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-06-04 18:07:54 - [MESSAGE][FAILED] - Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1591267761201.run(Script1591267761201.groovy:43)
+	... 13 more
+)
+[[ATTACHMENT|/Users/haquangtrong/Documents/git/Hw2_TestMattermost_8/Reports/20200604_180511/1612745 - Run all test cases/20200604_180511/1591268874793.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-04 18:06:52 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Test Team URL: Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612745/1612745 - Test Team URL" time="64.566" classname="Test Cases/1612745/1612745 - Test Team URL" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-04 18:07:54 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Test Team URL: Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-04 18:07:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 18:07:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-04 18:07:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-06-04 18:07:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-04 18:07:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 18:07:58 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-master.herokuapp.com/login"): Navigate to 'https://mattermost-master.herokuapp.com/login' successfully
+
+2020-06-04 18:08:04 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-master.herokuapp.com/login' successfully
+
+2020-06-04 18:08:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "t2ntruong"): Text 't2ntruong' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-06-04 18:08:08 - [MESSAGE][PASSED] - Text 't2ntruong' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-06-04 18:08:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "vItX/nZ/LjgkcP+YDueabg=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-06-04 18:08:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-06-04 18:08:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-06-04 18:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-06-04 18:08:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb' is clicked on
+
+2020-06-04 18:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb' is clicked on
+
+2020-06-04 18:08:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team' is clicked on
+
+2020-06-04 18:08:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team' is clicked on
+
+2020-06-04 18:08:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput"), "t1"): Text 't1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'
+
+2020-06-04 18:08:14 - [MESSAGE][PASSED] - Text 't1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'
+
+2020-06-04 18:08:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next' is clicked on
+
+2020-06-04 18:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next' is clicked on
+
+2020-06-04 18:08:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88"), nameURL): Text '1url' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'
+
+2020-06-04 18:08:15 - [MESSAGE][PASSED] - Text '1url' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'
+
+2020-06-04 18:08:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish' is clicked on
+
+2020-06-04 18:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish' is clicked on
+
+2020-06-04 18:08:15 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox"), "1"): Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1591267761201.run(Script1591267761201.groovy:43)
+	... 13 more
+)
+
+2020-06-04 18:08:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='post_textbox']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-06-04 18:08:59 - [MESSAGE][FAILED] - Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1591267761201.run(Script1591267761201.groovy:43)
+	... 13 more
+)
+[[ATTACHMENT|/Users/haquangtrong/Documents/git/Hw2_TestMattermost_8/Reports/20200604_180511/1612745 - Run all test cases/20200604_180511/1591268939364.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-04 18:07:54 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Test Team URL: Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612745/1612745 - Test Team URL" time="64.035" classname="Test Cases/1612745/1612745 - Test Team URL" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-04 18:08:59 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Test Team URL: Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-04 18:08:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 18:08:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-04 18:09:00 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-06-04 18:09:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-04 18:09:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 18:09:02 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-master.herokuapp.com/login"): Navigate to 'https://mattermost-master.herokuapp.com/login' successfully
+
+2020-06-04 18:09:07 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-master.herokuapp.com/login' successfully
+
+2020-06-04 18:09:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "t2ntruong"): Text 't2ntruong' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-06-04 18:09:12 - [MESSAGE][PASSED] - Text 't2ntruong' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-06-04 18:09:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "vItX/nZ/LjgkcP+YDueabg=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-06-04 18:09:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-06-04 18:09:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-06-04 18:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-06-04 18:09:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb' is clicked on
+
+2020-06-04 18:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb' is clicked on
+
+2020-06-04 18:09:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team' is clicked on
+
+2020-06-04 18:09:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team' is clicked on
+
+2020-06-04 18:09:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput"), "t1"): Text 't1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'
+
+2020-06-04 18:09:18 - [MESSAGE][PASSED] - Text 't1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'
+
+2020-06-04 18:09:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next' is clicked on
+
+2020-06-04 18:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next' is clicked on
+
+2020-06-04 18:09:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88"), nameURL): Text 'u r l' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'
+
+2020-06-04 18:09:19 - [MESSAGE][PASSED] - Text 'u r l' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'
+
+2020-06-04 18:09:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish' is clicked on
+
+2020-06-04 18:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish' is clicked on
+
+2020-06-04 18:09:19 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox"), "1"): Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1591267761201.run(Script1591267761201.groovy:43)
+	... 13 more
+)
+
+2020-06-04 18:10:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='post_textbox']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-06-04 18:10:03 - [MESSAGE][FAILED] - Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1591267761201.run(Script1591267761201.groovy:43)
+	... 13 more
+)
+[[ATTACHMENT|/Users/haquangtrong/Documents/git/Hw2_TestMattermost_8/Reports/20200604_180511/1612745 - Run all test cases/20200604_180511/1591269003429.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-04 18:08:59 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Test Team URL: Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1612745/1612745 - Test Team URL" time="61.508" classname="Test Cases/1612745/1612745 - Test Team URL" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-04 18:10:03 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Test Team URL: Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-04 18:10:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-06-04 18:10:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-06-04 18:10:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-06-04 18:10:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-04 18:10:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-06-04 18:10:06 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-master.herokuapp.com/login"): Navigate to 'https://mattermost-master.herokuapp.com/login' successfully
+
+2020-06-04 18:10:10 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-master.herokuapp.com/login' successfully
+
+2020-06-04 18:10:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "t2ntruong"): Text 't2ntruong' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-06-04 18:10:14 - [MESSAGE][PASSED] - Text 't2ntruong' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-06-04 18:10:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "vItX/nZ/LjgkcP+YDueabg=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-06-04 18:10:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-06-04 18:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-06-04 18:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-06-04 18:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb' is clicked on
+
+2020-06-04 18:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb' is clicked on
+
+2020-06-04 18:10:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team' is clicked on
+
+2020-06-04 18:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team' is clicked on
+
+2020-06-04 18:10:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput"), "t1"): Text 't1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'
+
+2020-06-04 18:10:19 - [MESSAGE][PASSED] - Text 't1' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'
+
+2020-06-04 18:10:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next' is clicked on
+
+2020-06-04 18:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Next' is clicked on
+
+2020-06-04 18:10:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88"), nameURL): Text 'Url' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'
+
+2020-06-04 18:10:20 - [MESSAGE][PASSED] - Text 'Url' is set on object 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'
+
+2020-06-04 18:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish")): Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish' is clicked on
+
+2020-06-04 18:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Finish' is clicked on
+
+2020-06-04 18:10:21 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox"), "1"): Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1591267761201.run(Script1591267761201.groovy:43)
+	... 13 more
+)
+
+2020-06-04 18:11:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='post_textbox']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-06-04 18:11:05 - [MESSAGE][FAILED] - Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1591267761201.run(Script1591267761201.groovy:43)
+	... 13 more
+)
+[[ATTACHMENT|/Users/haquangtrong/Documents/git/Hw2_TestMattermost_8/Reports/20200604_180511/1612745 - Run all test cases/20200604_180511/1591269064914.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-04 18:10:03 - [TEST_CASE][FAILED] - Test Cases/1612745/1612745 - Test Team URL: Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-04 18:05:24 - [TEST_SUITE][FAILED] - 1612745 - Run all test cases: Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-06-04 18:05:24 - [TEST_SUITE][FAILED] - 1612745 - Run all test cases: Test Cases/1612745/1612745 - Test Team URL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 1612745 - Test Team URL.run(1612745 - Test Team URL:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1591268721618.run(TempTestSuite1591268721618.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Town Square - t1 Mattermost/textarea_Write to Town Square_post_textbox' located by 'By.xpath: //textarea[@id='post_textbox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

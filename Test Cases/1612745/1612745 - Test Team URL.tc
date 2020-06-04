@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1612745 - Test Team URL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>046872ed-1c2a-40bf-a2f3-cf6539d6a7bb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1795a096-6495-4037-a2ce-5181eeba13cb</id>
+      <masked>false</masked>
+      <name>nameURL</name>
+   </variable>
+</TestCaseEntity>
