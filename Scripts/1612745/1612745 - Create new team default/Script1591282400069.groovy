@@ -16,16 +16,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('1612745/1612745 - Sign in default'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb'))
 
-WebUI.callTestCase(findTestCase('1612745/1612745 - Create new team default'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/span_Create a Team'))
 
-WebUI.setText(findTestObject('Page_Town Square - t1 Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'), nameURL)
+WebUI.setText(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/input_Team Name_teamNameInput'), 't1')
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/span_Finish'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Next'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - test-t1 Mattermost/textarea_Write to Town Square_post_textbox'), 
-    't')
-
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'), 
+    '')
 

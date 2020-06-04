@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/1612745/1612745 - Create new team - Iteration 1","testCaseId":"Test Cases/1612745/1612745 - Create new team","bindedValues":{"nameTeam":"\u0027test-t1\u0027"}}
+{"testCaseName":"Test Cases/1612745/1612745 - Create new team - Iteration 2","testCaseId":"Test Cases/1612745/1612745 - Create new team","bindedValues":{"nameTeam":"\u0027test-t2\u0027"}}
+{"testCaseName":"Test Cases/1612745/1612745 - Create new team - Iteration 3","testCaseId":"Test Cases/1612745/1612745 - Create new team","bindedValues":{"nameTeam":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/1612745/1612745 - Create new team - Iteration 4","testCaseId":"Test Cases/1612745/1612745 - Create new team","bindedValues":{"nameTeam":"\u0027a\u0027"}}
+{"testCaseName":"Test Cases/1612745/1612745 - Create new team - Iteration 5","testCaseId":"Test Cases/1612745/1612745 - Create new team","bindedValues":{"nameTeam":"\u0027aaaaaaaaaaaaaaaa\u0027"}}
