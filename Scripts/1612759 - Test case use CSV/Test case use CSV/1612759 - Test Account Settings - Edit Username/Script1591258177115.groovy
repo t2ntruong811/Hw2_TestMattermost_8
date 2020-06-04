@@ -14,4 +14,27 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://mattermost-master.herokuapp.com/')
+
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 't2ntruong')
+
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'vItX/nZ/LjgkcP+YDueabg==')
+
+WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
+
+WebUI.click(findTestObject('Page_Town Square - acb Mattermost/span'))
+
+WebUI.click(findTestObject('Page_Town Square - acb Mattermost/span_Account Settings'))
+
+WebUI.click(findTestObject('Page_Town Square - acb Mattermost/span_Edit'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - acb Mattermost/input_Username_username'), username)
+
+WebUI.click(findTestObject('Page_Town Square - acb Mattermost/span_Save'))
+
+WebUI.closeBrowser()
 

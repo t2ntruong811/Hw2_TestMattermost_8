@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1612759 - Test Account Settings - Edit Full Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e10ae51-a22b-46d6-b7ae-61026cf8ced0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3683aaeb-6697-4952-aa4e-990707e91f88</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a36b4aaa-ce27-45d8-afe2-1a4a72b442b5</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+</TestCaseEntity>

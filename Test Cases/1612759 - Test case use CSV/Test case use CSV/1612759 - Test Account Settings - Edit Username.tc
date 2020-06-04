@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1612759 - Test Account Settings - Edit Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a99bc606-4083-46c0-87ff-a3a87c5e6b0a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>66a53ef6-40c8-4113-adae-b19a8eeabe24</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
