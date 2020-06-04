@@ -16,25 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('1612745/1612745 - Sign in default'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://mattermost-master.herokuapp.com/login')
+WebUI.click(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/svg'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'), 't2ntruong')
+WebUI.click(findTestObject('Page_Town Square - t1 Mattermost/span_Account Settings'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-    'vItX/nZ/LjgkcP+YDueabg==')
+WebUI.click(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/button_Display'))
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb'))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/span_Create a Team'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - acb Mattermost/input_Team Name_teamNameInput'), nameTeam)
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/span_Next'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/input_httpsmattermost-masterherokuappcom_te_7a0a88'), 
-    '')
+WebUI.closeBrowser()
 
