@@ -94,7 +94,7 @@
    <testCaseLink>
       <guid>fccf8897-30e3-4d13-b004-19e516e9de5b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612745/1612745 - Test Team URL</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -110,6 +110,27 @@
          <type>DATA_COLUMN</type>
          <value>nameURL</value>
          <variableId>1795a096-6495-4037-a2ce-5181eeba13cb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>52b22029-15f3-4bd8-9f3e-8fa74ee4b9c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612745/1612745 - Test Reset password</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e784dba8-75d4-491e-939d-d10dadc06b7f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/1612745/1612745 - Test forget password</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e784dba8-75d4-491e-939d-d10dadc06b7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>b94cc3ae-b3ea-4f8b-a88a-4bbd5e893cef</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/1612745/1612745 - Test Reset password - Iteration 1","testCaseId":"Test Cases/1612745/1612745 - Test Reset password","bindedValues":{"email":"\u0027test@test.com\u0027"}}
+{"testCaseName":"Test Cases/1612745/1612745 - Test Reset password - Iteration 2","testCaseId":"Test Cases/1612745/1612745 - Test Reset password","bindedValues":{"email":"\u0027test\u0027"}}
+{"testCaseName":"Test Cases/1612745/1612745 - Test Reset password - Iteration 3","testCaseId":"Test Cases/1612745/1612745 - Test Reset password","bindedValues":{"email":"\u0027@test.com\u0027"}}
+{"testCaseName":"Test Cases/1612745/1612745 - Test Reset password - Iteration 4","testCaseId":"Test Cases/1612745/1612745 - Test Reset password","bindedValues":{"email":"\u0027test2@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/1612745/1612745 - Test Reset password - Iteration 5","testCaseId":"Test Cases/1612745/1612745 - Test Reset password","bindedValues":{"email":"\u0027test#test.com\u0027"}}
