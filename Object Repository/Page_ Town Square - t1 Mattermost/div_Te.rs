@@ -3,11 +3,7 @@
    <description></description>
    <name>div_Te</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>e30b6d83-9337-4a61-9059-923398edc577</elementGuidId>
-=======
-   <elementGuidId>0b2fbedd-eeb4-4534-9720-08d62a103fde</elementGuidId>
->>>>>>> 26957e69682065c2125636dee42ef1a06392229f
+   <elementGuidId>ccc2ed31-a65a-482b-a796-b9f5958156b0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -70,18 +66,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='t1'])[1]/following::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='t1'])[2]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-<<<<<<< HEAD
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ac'])[1]/following::div[10]</value>
-=======
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ab'])[1]/following::div[10]</value>
->>>>>>> 26957e69682065c2125636dee42ef1a06392229f
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='t1'])[1]/following::div[15]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +87,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='abc'])[2]/preceding::div[13]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='t1'])[3]/preceding::div[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,10 +101,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-<<<<<<< HEAD
-      <value>//div[4]/a/div/div/div/div</value>
-=======
-      <value>//div[3]/a/div/div/div/div</value>
->>>>>>> 26957e69682065c2125636dee42ef1a06392229f
+      <value>//div[2]/a/div/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>
