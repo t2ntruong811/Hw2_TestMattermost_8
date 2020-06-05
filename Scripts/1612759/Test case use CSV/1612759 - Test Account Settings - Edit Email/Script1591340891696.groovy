@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mat
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Account Settings'))
 
-WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/div_EmailEditt2ntruonggmailcom'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_New Email_primaryEmail'), 
     newEmail)
@@ -42,6 +42,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Town Square - Team
     password)
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Save'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/div_EmailEditt2ntruonggmailcom'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Close'))
 

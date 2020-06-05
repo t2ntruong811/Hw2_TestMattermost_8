@@ -4,7 +4,13 @@
    <name>input_concat(What  s your email address)_email</name>
    <tag></tag>
    <elementGuidId>4a6d836a-43e0-4ea7-8aaa-e5a507fda190</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='email']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

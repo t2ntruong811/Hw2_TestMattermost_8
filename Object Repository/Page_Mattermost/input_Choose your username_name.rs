@@ -4,7 +4,13 @@
    <name>input_Choose your username_name</name>
    <tag></tag>
    <elementGuidId>3d0a14f5-fad7-4de4-80cb-75b0d3e8dac0</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='name']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -30,11 +30,13 @@ WebUI.click(findTestObject('Page_Town Square - acb Mattermost/span'))
 
 WebUI.click(findTestObject('Page_Town Square - acb Mattermost/span_Account Settings'))
 
-WebUI.click(findTestObject('Page_Town Square - acb Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_UsernameEditt2ntruong'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - acb Mattermost/input_Username_username'), username)
 
 WebUI.click(findTestObject('Page_Town Square - acb Mattermost/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_UsernameEditt2ntruong'))
 
 WebUI.closeBrowser()
 

@@ -18,11 +18,30 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1612745/1612745 - Sign in default'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/svg'))
+WebUI.click(findTestObject('Page_Town Square - abc Mattermost/button_t2ntruong_style--none sidebar-header_25c4cb'))
 
-WebUI.click(findTestObject('Page_Town Square - t1 Mattermost/span_Account Settings'))
+WebUI.click(findTestObject('Page_Town Square - abc Mattermost/span_Account Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/button_Display'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Display'))
 
-WebUI.closeBrowser()
+for (int i = 0; i < 2; i++) {
+    switch (i) {
+        case 0:
+            WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_Channel DisplayEditFull width'))
+
+            WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/label_Fixed width centered'))
+
+            WebUI.click(findTestObject('Page_Town Square - abc Mattermost/span_Save'))
+
+            break
+        case 1:
+            WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_Channel DisplayEditFull width'))
+
+            WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/label_Full width'))
+
+            WebUI.click(findTestObject('Page_Town Square - abc Mattermost/span_Save'))
+
+            break
+    }
+}
 
