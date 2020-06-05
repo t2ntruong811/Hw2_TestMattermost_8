@@ -28,6 +28,5 @@ WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/button_Edi
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Hellooooo'), 'Test edit chat')
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Save'))
-
 WebUI.closeBrowser()
 
