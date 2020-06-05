@@ -14,7 +14,7 @@
       <guid>78a2e1ca-d187-4963-a33b-f50e67eb1388</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1612759 - Test case use CSV/Test case use CSV/1612759 - Test Account Settings - Edit Email</testCaseId>
+      <testCaseId>Test Cases/1612759/Test case use CSV/1612759 - Test Account Settings - Edit Email</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>eee9f59c-7c7d-476b-abd2-05de28b4d31a</id>
@@ -47,7 +47,7 @@
       <guid>0671f1cb-8dd1-42f1-9ae7-acb332e4d40a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1612759 - Test case use CSV/Test case use CSV/1612759 - Test Account Settings - Edit Password</testCaseId>
+      <testCaseId>Test Cases/1612759/Test case use CSV/1612759 - Test Account Settings - Edit Password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>391c6148-4407-4254-9375-0ac858c166f5</id>
@@ -92,7 +92,7 @@
       <guid>4ea1f558-c76a-4570-b684-64a54f451af6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1612759 - Test case use CSV/Test case use CSV/1612759 - Test Account Settings - Edit Full Name</testCaseId>
+      <testCaseId>Test Cases/1612759/Test case use CSV/1612759 - Test Account Settings - Edit Full Name</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d96aa5c0-096c-424f-9b19-b4ac5bb6403c</id>
@@ -119,7 +119,7 @@
       <guid>07758db0-e339-4a72-8220-6d31d214e6a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1612759 - Test case use CSV/Test case use CSV/1612759 - Test Account Settings - Edit Username</testCaseId>
+      <testCaseId>Test Cases/1612759/Test case use CSV/1612759 - Test Account Settings - Edit Username</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>53f6e3c5-59cd-4847-8171-2d0c2d3e7508</id>
@@ -140,7 +140,7 @@
       <guid>547fee76-b845-4e0e-8802-713610f76ea5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1612759 - Test case use CSV/Test case use CSV/1612759 - Test Account Settings - Edit Nickname</testCaseId>
+      <testCaseId>Test Cases/1612759/Test case use CSV/1612759 - Test Account Settings - Edit Nickname</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>295b8765-4e64-4870-a34e-9f2b68817581</id>
