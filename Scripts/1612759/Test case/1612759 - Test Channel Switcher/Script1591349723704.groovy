@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/d
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/label_Off'))
 
-WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/span_Save'))
+WebUI.click(findTestObject('Page_Town Square - t1 Mattermost/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_Channel SwitcherEditOff'))
 

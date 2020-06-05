@@ -18,18 +18,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1612745/1612745 - Sign in default'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/div_Te'))
+
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/input_Add a channel description_searchBox'), 
     'aaaa')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/input_Add a channel description_searchBox'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/div_Te'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/inputsearchBox'), 'aaaa')
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/inputsearchBox'), Keys.chord(
-        Keys.ENTER))
 
 WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/span_aaaa'), FailureHandling.STOP_ON_FAILURE)
 

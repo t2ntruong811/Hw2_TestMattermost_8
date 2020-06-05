@@ -19,24 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1612745/1612745 - Sign in default'), [:], FailureHandling.STOP_ON_FAILURE)
 
-int i = 0
+WebUI.click(findTestObject('Object Repository/Page_ Town Square - t1 Mattermost/div_Te'))
 
-while(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Test edit chat') == false){	
-	WebUI.click(findTestObject('Object Repository/Page_ Town Square - t1 Mattermost/div_Te'))
-	
-	WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_CENTER_button_cfc1xsrgytn9_d07a6c'))
-	
-	WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/span_Edit'))
-	
-	WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Hellooooo'), 'Test edit chat')
-	
-	WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Save'))
-	
-	if(i == 10)
-		break
-		
-	i++
-}
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_CENTER_button_cfc1xsrgytn9_d07a6c'))
+
+WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/button_Edit'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Hellooooo'), 'Test edit chat')
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Save'))
 
 WebUI.closeBrowser()
 
