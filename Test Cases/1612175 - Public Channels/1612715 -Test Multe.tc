@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1612715 -Test Multe</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24c010ce-6571-4872-be2c-1033326ad1b1</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('1612715 - Test Data Public Channels/1612715 - Test Data Mute')</defaultValue>
+      <description></description>
+      <id>7a23cbcd-d83e-4cfb-b011-a14f1aab96c5</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+</TestCaseEntity>

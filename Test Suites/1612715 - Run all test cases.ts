@@ -46,7 +46,7 @@
    <testCaseLink>
       <guid>f1ba33f0-3215-4f6a-b4d9-b93bb74121cb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612175 - Public Channels/1612715 - Test Public Channels_Public_1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -512,6 +512,27 @@
          <type>DATA_COLUMN</type>
          <value>url</value>
          <variableId>52664490-d718-4d25-a5f9-1b554d6b3ad5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>64a3ea76-0793-4714-b769-8a6e8a33a469</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1612175 - Public Channels/1612715 -Test Multe</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1c55b93a-7537-456c-b017-63bcebddbd35</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/1612715 - Test Data Public Channels/1612715 - Test Data Mute</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>1c55b93a-7537-456c-b017-63bcebddbd35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>header</value>
+         <variableId>7a23cbcd-d83e-4cfb-b011-a14f1aab96c5</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
