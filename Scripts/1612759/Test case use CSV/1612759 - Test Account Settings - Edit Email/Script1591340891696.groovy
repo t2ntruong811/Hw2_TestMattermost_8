@@ -43,6 +43,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Town Square - Team
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Save'))
 
+WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/div_EmailEditt2ntruonggmailcom'))
+
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Close'))
 
 WebUI.closeBrowser()
