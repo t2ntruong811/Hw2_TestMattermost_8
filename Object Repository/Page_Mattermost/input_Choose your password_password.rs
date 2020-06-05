@@ -4,7 +4,13 @@
    <name>input_Choose your password_password</name>
    <tag></tag>
    <elementGuidId>bd5e9304-9a50-4f90-ba12-9bdc8cdc5aef</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='password']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

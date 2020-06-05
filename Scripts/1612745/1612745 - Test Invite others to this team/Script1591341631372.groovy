@@ -18,11 +18,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1612745/1612745 - Sign in default'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/svg'))
+WebUI.click(findTestObject('Page_Town Square - t1 Mattermost/div_Te'))
 
-WebUI.click(findTestObject('Page_Town Square - t1 Mattermost/span_Account Settings'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Invite others to this team'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/button_Display'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/div_Add members'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/input_Add members_react-select-2-input'), 
+    's')
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/div_surveybotSurveybot'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Invite Members'))
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Done'))
 
 WebUI.closeBrowser()
 

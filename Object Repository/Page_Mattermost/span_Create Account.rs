@@ -4,7 +4,13 @@
    <name>span_Create Account</name>
    <tag></tag>
    <elementGuidId>5d9d573c-2def-4d2a-8d2f-15d94db54779</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='createAccountButton']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

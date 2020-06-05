@@ -38,13 +38,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0b404d41-cae7-4926-a305-dbeed6884aa0</guid>
+      <guid>66067156-6b08-4232-b7f7-3b2c44037d90</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1612745/1612745 - Test sign up</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>7db81e65-c03c-4935-8efb-214856630100</id>
+         <id>fca16245-03ba-4671-9678-68f352fa8ce6</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -52,19 +52,19 @@
          <testDataId>Data Files/1612745/1612745 - Test data sign up</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>7db81e65-c03c-4935-8efb-214856630100</testDataLinkId>
+         <testDataLinkId>fca16245-03ba-4671-9678-68f352fa8ce6</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email</value>
          <variableId>48e2f6ce-8cab-4625-94af-057cfff8a5e1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>7db81e65-c03c-4935-8efb-214856630100</testDataLinkId>
+         <testDataLinkId>fca16245-03ba-4671-9678-68f352fa8ce6</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>f45c6455-1f7d-4c11-b489-17eb51d73b7a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>7db81e65-c03c-4935-8efb-214856630100</testDataLinkId>
+         <testDataLinkId>fca16245-03ba-4671-9678-68f352fa8ce6</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>b723d25b-3bdf-4f7d-997d-d82bb2260b0e</variableId>
@@ -115,7 +115,7 @@
    <testCaseLink>
       <guid>52b22029-15f3-4bd8-9f3e-8fa74ee4b9c4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1612745/1612745 - Test Reset password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

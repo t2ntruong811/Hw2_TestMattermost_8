@@ -18,7 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/signup_email')
+WebUI.navigateToUrl('https://mattermost-master.herokuapp.com/login')
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create one now'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_concat(What  s your email address)_email'), email)
 
@@ -27,6 +29,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose you
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_Choose your password_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create Account'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Logout'))
 
 WebUI.closeBrowser()
 
