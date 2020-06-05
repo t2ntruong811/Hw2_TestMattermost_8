@@ -133,4 +133,58 @@
          <variableId>b94cc3ae-b3ea-4f8b-a88a-4bbd5e893cef</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8d0131c6-4b69-49d3-a34d-b1b6f79e9ab3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/1612759/Test case/1612759 - Test Account Settings - Edit Theme</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2ef41ce7-d533-4c1a-ada7-5a1dd5804c0b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/1612759/Test case/1612759 - Test Channel Display</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>84b36339-fa3d-4f3b-8ee2-f1590f0c23a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/1612759/Test case/1612759 - Test Channel Switcher</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d5ebbc7c-148a-42b9-befe-f8077835e540</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/1612759/Test case/1612759 - Test Chat</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a535fa17-e985-46fe-8c71-7d81c2ca242a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/1612759/Test case/1612759 - Test Direct Chat</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0bc015e2-3bd9-4617-bcad-0705f5a8ee9b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/1612759/Test case/1612759 - Test Edit Chat</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7e777e7-67d6-4364-b961-c344b3afe6cc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/1612759/Test case/1612759 - Test Reply Chat</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b99602a2-d48d-4117-bb75-0c3a46ff0e74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/1612759/Test case/1612759 - Test Search</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>803d6d44-bc40-463e-9c34-725f22dc19e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/1612759/Test case/1612759 - Test Set a Header</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

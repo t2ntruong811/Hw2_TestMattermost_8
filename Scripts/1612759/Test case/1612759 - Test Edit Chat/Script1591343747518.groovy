@@ -16,17 +16,52 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.callTestCase(findTestCase('1612745/1612745 - Sign in default'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_ Town Square - t1 Mattermost/div_Te'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_t2ntruong_CENTER_button_cfc1xsrgytn9_d07a6c'))
 
-WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/button_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Hellooooo'), 'Test edit chat')
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Hellooooo'), 'Helloooo')
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Save'))
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Helloooo'), 'Hellooo')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Hellooo'), 'Helloo')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Helloo'), 'Hello')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Hello'), 'Hell')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Hell'), 'Hel')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Hel'), 'He')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_He'), 'H')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_H'), '')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Edit the post_edit_textbox'), 
+    'T')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_t'), 'Te')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_te'), 'Tes')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_tes'), 'Test')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Test'), 'Test ')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Test_1'), 'Test e')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Test e'), 'Test ed')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Test ed'), 'Test edi')
+
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Test edi'), 'Test edit')
+
+WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Save_1'))
+
 WebUI.closeBrowser()
 

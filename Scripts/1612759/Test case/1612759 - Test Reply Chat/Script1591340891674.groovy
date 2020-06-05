@@ -23,7 +23,7 @@ for (int i = 0; i < 5; i++){
 		case 0: 
 			WebUI.click(findTestObject('Page_Town Square - t1 Mattermost/div_Te'))
 			
-			WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_1'))
+			WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_3'))
 			
 			WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Add a comment_reply_textbox'),
 			   'Trường reply chat')
@@ -34,7 +34,7 @@ for (int i = 0; i < 5; i++){
 		case 1:
 			WebUI.click(findTestObject('Page_Town Square - t1 Mattermost/div_Te'))
 			
-			WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_1'))
+			WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_3'))
 			
 			WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Add a comment_reply_textbox'),
 			   'Trà reply chat')
@@ -45,7 +45,7 @@ for (int i = 0; i < 5; i++){
 		case 100:
 			WebUI.click(findTestObject('Page_Town Square - t1 Mattermost/div_Te'))
 			
-			WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_1'))
+			WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/span_3'))
 			
 			WebUI.setText(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/textarea_Add a comment_reply_textbox'),
 			   'Reply chat fail')
