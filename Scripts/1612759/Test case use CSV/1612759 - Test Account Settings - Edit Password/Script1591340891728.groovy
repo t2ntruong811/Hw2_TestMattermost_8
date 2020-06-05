@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Security'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_PasswordEditLast updated Jun 04 2020 at 1207'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Town Square - abc Mattermost/input_Current Password_currentPassword'), 
     currentPassword)
@@ -46,6 +46,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Town Square - abc 
     confirmPassword)
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_PasswordEditLast updated Jun 04 2020 at 1207'))
 
 WebUI.closeBrowser()
 

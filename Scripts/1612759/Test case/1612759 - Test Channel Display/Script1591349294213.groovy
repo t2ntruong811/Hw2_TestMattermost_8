@@ -24,24 +24,24 @@ WebUI.click(findTestObject('Page_Town Square - abc Mattermost/span_Account Setti
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/button_Display'))
 
-for(int i = 0; i < 2; i++){
-	switch(i) {
-		case 0:
-			WebUI.click(findTestObject('Page_Town Square - abc Mattermost/span_Edit'))
-			
-			WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/label_Fixed width centered'))
-			
-			WebUI.click(findTestObject('Page_Town Square - abc Mattermost/span_Save'))
-			break
-		case 1:
-			WebUI.click(findTestObject('Page_Town Square - abc Mattermost/span_Edit'))
-			
-			WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/label_Full width'))
-			
-			WebUI.click(findTestObject('Page_Town Square - abc Mattermost/span_Save'))
-			break
-	}
+for (int i = 0; i < 2; i++) {
+    switch (i) {
+        case 0:
+            WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_Channel DisplayEditFull width'))
+
+            WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/label_Fixed width centered'))
+
+            WebUI.click(findTestObject('Page_Town Square - abc Mattermost/span_Save'))
+
+            break
+        case 1:
+            WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_Channel DisplayEditFull width'))
+
+            WebUI.click(findTestObject('Object Repository/Page_Town Square - abc Mattermost/label_Full width'))
+
+            WebUI.click(findTestObject('Page_Town Square - abc Mattermost/span_Save'))
+
+            break
+    }
 }
-
-
 

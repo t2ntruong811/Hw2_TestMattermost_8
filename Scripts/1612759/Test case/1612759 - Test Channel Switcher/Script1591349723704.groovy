@@ -24,11 +24,13 @@ WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/span_Accou
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/button_Sidebar'))
 
-WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_Channel SwitcherEditOff'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - TeamChuDeNC Mattermost/label_Off'))
 
 WebUI.click(findTestObject('Page_Town Square - TeamChuDeNC Mattermost/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_Channel SwitcherEditOff'))
 
 WebUI.closeBrowser()
 

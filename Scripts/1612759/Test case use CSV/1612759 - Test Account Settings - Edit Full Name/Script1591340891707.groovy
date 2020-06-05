@@ -32,13 +32,15 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/span_Account Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_Full NameEditTran Nguyen Ngoc Truong'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - acb Mattermost/input_First Name_firstName'), firstName)
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - acb Mattermost/input_Last Name_lastName'), lastName)
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - acb Mattermost/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/Page_My Channel - acb Mattermost/div_Full NameEditTran Nguyen Ngoc Truong'))
 
 WebUI.closeBrowser()
 
