@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Te</name>
+   <name>span_Rename Channel</name>
    <tag></tag>
-   <elementGuidId>ccc2ed31-a65a-482b-a796-b9f5958156b0</elementGuidId>
+   <elementGuidId>2c94729e-0e53-4bb9-93eb-a97076a11263</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='teamchudencTeamButton']/div/div/div/div</value>
+         <value>//li[@id='channelRename']/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,90 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>teamIconInitial</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>TeamIcon__initials TeamIcon__initials__md</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
-      <type>Main</type>
-      <value>Team Initials</value>
+      <value>MenuItem__primary-text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Te</value>
+      <value>Rename Channel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;teamchudencTeamButton&quot;)/div[@class=&quot;team-btn&quot;]/div[@class=&quot;TeamIcon  TeamIcon__md&quot;]/div[@class=&quot;TeamIcon__content&quot;]/div[@class=&quot;TeamIcon__initials TeamIcon__initials__md&quot;]</value>
+      <value>id(&quot;channelRename&quot;)/button[@class=&quot;style--none&quot;]/span[@class=&quot;MenuItem__primary-text&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='teamchudencTeamButton']/div/div/div/div</value>
+      <value>//li[@id='channelRename']/button/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='t1'])[2]/following::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Channel Purpose'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='t1'])[1]/following::div[15]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Channel Header'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a channel description'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='t1'])[3]/preceding::div[13]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Options'])[1]/preceding::span[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Te']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Rename Channel']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a/div/div/div/div</value>
+      <value>//li[10]/button/span</value>
    </webElementXpaths>
 </WebElementEntity>
