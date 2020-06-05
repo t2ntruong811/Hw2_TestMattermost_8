@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Te</name>
    <tag></tag>
-   <elementGuidId>321659f6-8ec1-487b-9ae6-842f7c4e8335</elementGuidId>
+   <elementGuidId>0b2fbedd-eeb4-4534-9720-08d62a103fde</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -87,7 +87,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TeamChuDeNC'])[2]/preceding::div[13]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='abc'])[2]/preceding::div[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,19 +102,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a/div/div/div/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TeamChuDeNC'])[1]/following::div[15]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/a/div/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>
