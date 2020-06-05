@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Page_Town Square - t1 Mattermost/span_Account Settin
 
 WebUI.click(findTestObject('Page_Town Square - t1 Mattermost/button_Display'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/div_ThemeEditOpen to manage your theme'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - t1 Mattermost/img_Theme Colors_img-responsive'))
 
