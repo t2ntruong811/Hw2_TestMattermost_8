@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='t1'])[4]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='t1'])[3]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,5 +88,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/button/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='t1'])[4]/following::span[2]</value>
    </webElementXpaths>
 </WebElementEntity>
